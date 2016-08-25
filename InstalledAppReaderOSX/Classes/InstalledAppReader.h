@@ -3,7 +3,7 @@
 //  EZLauncher-Installer
 //
 //  Created by brianliu on 2016/8/24.
-//  Copyright © 2016年 winnerwave. All rights reserved.
+//  Copyright © 2016  winnerwave. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
