@@ -1,0 +1,16 @@
+PODS:
+  - InstalledAppReaderOSX (0.1.0)
+
+DEPENDENCIES:
+  - InstalledAppReaderOSX (from `../`)
+
+EXTERNAL SOURCES:
+  InstalledAppReaderOSX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstalledAppReaderOSX: bc947cae804e716d92c522cdf508f7c451c1cd51
+
+PODFILE CHECKSUM: c69dea7f9bcb066a85371b6d2292c38bb71cf57f
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,22 @@
+{
+  "name": "InstalledAppReaderOSX",
+  "version": "0.1.0",
+  "summary": "A short description of InstalledAppReaderOSX.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/InstalledAppReaderOSX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "raxcat": "raxcat@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/InstalledAppReaderOSX.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.8"
+  },
+  "source_files": "InstalledAppReaderOSX/Classes/**/*"
+}

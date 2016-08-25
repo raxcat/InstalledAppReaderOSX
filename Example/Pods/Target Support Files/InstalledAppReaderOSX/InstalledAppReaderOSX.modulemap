@@ -1,0 +1,6 @@
+framework module InstalledAppReaderOSX {
+  umbrella header "InstalledAppReaderOSX-umbrella.h"
+
+  export *
+  module * { export * }
+}

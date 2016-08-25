@@ -7,86 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51689F66ADB852A0556B774C /* Pods_InstalledAppReaderOSX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB87A0E2C2A2C6D8AC7C2F6 /* Pods_InstalledAppReaderOSX_Example.framework */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* NSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* NSAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* NSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* NSViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7B473944C1A10E6DA5682C5C /* Pods_InstalledAppReaderOSX_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72563E4DB121BD0ABA0DF5D8 /* Pods_InstalledAppReaderOSX_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		0BC998E8EC639D92E6597775 /* Pods_InstalledAppReaderOSX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB87A0E2C2A2C6D8AC7C2F6 /* Pods_InstalledAppReaderOSX_Example.framework */; };
+		D308A5FF1D6E9AAE00462408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D308A5FE1D6E9AAE00462408 /* AppDelegate.m */; };
+		D308A6021D6E9AAE00462408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D308A6011D6E9AAE00462408 /* main.m */; };
+		D308A6051D6E9AAE00462408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D308A6041D6E9AAE00462408 /* ViewController.m */; };
+		D308A6071D6E9AAE00462408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308A6061D6E9AAE00462408 /* Assets.xcassets */; };
+		D308A60A1D6E9AAE00462408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308A6081D6E9AAE00462408 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = InstalledAppReaderOSX;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02FE5D23AC058E3970B0DBE8 /* Pods-InstalledAppReaderOSX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstalledAppReaderOSX_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstalledAppReaderOSX_Example/Pods-InstalledAppReaderOSX_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52C252D30A3ACEF0A3C512FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* InstalledAppReaderOSX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstalledAppReaderOSX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* InstalledAppReaderOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstalledAppReaderOSX-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* InstalledAppReaderOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstalledAppReaderOSX-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* NSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* NSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* NSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* NSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* InstalledAppReaderOSX_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstalledAppReaderOSX_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C8AE6F30BA9AC78EF7B83CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		72563E4DB121BD0ABA0DF5D8 /* Pods_InstalledAppReaderOSX_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstalledAppReaderOSX_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9AB87A0E2C2A2C6D8AC7C2F6 /* Pods_InstalledAppReaderOSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstalledAppReaderOSX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFA01DE4966942CCBB17E78 /* InstalledAppReaderOSX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InstalledAppReaderOSX.podspec; path = ../InstalledAppReaderOSX.podspec; sourceTree = "<group>"; };
+		D308A5FB1D6E9AAE00462408 /* InstalledAppReaderOSX_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstalledAppReaderOSX_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D308A5FD1D6E9AAE00462408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D308A5FE1D6E9AAE00462408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D308A6011D6E9AAE00462408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D308A6031D6E9AAE00462408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D308A6041D6E9AAE00462408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D308A6061D6E9AAE00462408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D308A6091D6E9AAE00462408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D308A60B1D6E9AAE00462408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2075767584F0DE32892D40C /* Pods-InstalledAppReaderOSX_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstalledAppReaderOSX_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstalledAppReaderOSX_Example/Pods-InstalledAppReaderOSX_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2A2DE0E249C7DEF0B425853 /* Pods-InstalledAppReaderOSX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstalledAppReaderOSX_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstalledAppReaderOSX_Tests/Pods-InstalledAppReaderOSX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF6B8D2E1DEEE6CC0915945 /* Pods-InstalledAppReaderOSX_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstalledAppReaderOSX_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstalledAppReaderOSX_Tests/Pods-InstalledAppReaderOSX_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F587195388D20070C39A /* Frameworks */ = {
+		D308A5F81D6E9AAE00462408 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				51689F66ADB852A0556B774C /* Pods_InstalledAppReaderOSX_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7B473944C1A10E6DA5682C5C /* Pods_InstalledAppReaderOSX_Tests.framework in Frameworks */,
+				0BC998E8EC639D92E6597775 /* Pods_InstalledAppReaderOSX_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for InstalledAppReaderOSX */,
-				6003F5B5195388D20070C39A /* Tests */,
+				D308A5FC1D6E9AAE00462408 /* InstalledAppReaderOSX_Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				EC2BBCE8931F586542193772 /* Pods */,
@@ -108,8 +66,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* InstalledAppReaderOSX_Example.app */,
-				6003F5AE195388D20070C39A /* InstalledAppReaderOSX_Tests.xctest */,
+				D308A5FB1D6E9AAE00462408 /* InstalledAppReaderOSX_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,51 +84,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for InstalledAppReaderOSX */ = {
-			isa = PBXGroup;
-			children = (
-				6003F59C195388D20070C39A /* NSAppDelegate.h */,
-				6003F59D195388D20070C39A /* NSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* NSViewController.h */,
-				6003F5A6195388D20070C39A /* NSViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for InstalledAppReaderOSX";
-			path = InstalledAppReaderOSX;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* InstalledAppReaderOSX-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* InstalledAppReaderOSX-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +92,29 @@
 				6C8AE6F30BA9AC78EF7B83CC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D308A5FC1D6E9AAE00462408 /* InstalledAppReaderOSX_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D308A5FD1D6E9AAE00462408 /* AppDelegate.h */,
+				D308A5FE1D6E9AAE00462408 /* AppDelegate.m */,
+				D308A6031D6E9AAE00462408 /* ViewController.h */,
+				D308A6041D6E9AAE00462408 /* ViewController.m */,
+				D308A6061D6E9AAE00462408 /* Assets.xcassets */,
+				D308A6081D6E9AAE00462408 /* Main.storyboard */,
+				D308A60B1D6E9AAE00462408 /* Info.plist */,
+				D308A6001D6E9AAE00462408 /* Supporting Files */,
+			);
+			path = InstalledAppReaderOSX_Example;
+			sourceTree = "<group>";
+		};
+		D308A6001D6E9AAE00462408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D308A6011D6E9AAE00462408 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EC2BBCE8931F586542193772 /* Pods */ = {
@@ -196,46 +131,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* InstalledAppReaderOSX_Example */ = {
+		D308A5FA1D6E9AAE00462408 /* InstalledAppReaderOSX_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Example" */;
+			buildConfigurationList = D308A60C1D6E9AAE00462408 /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Example" */;
 			buildPhases = (
-				B64F221D1CD9D8A185B1FC0E /* [CP] Check Pods Manifest.lock */,
-				6003F586195388D20070C39A /* Sources */,
-				6003F587195388D20070C39A /* Frameworks */,
-				6003F588195388D20070C39A /* Resources */,
-				133846A78AA0582C8DAB2CA8 /* [CP] Embed Pods Frameworks */,
-				4477095DA35BE67D6EA7F0BF /* [CP] Copy Pods Resources */,
+				644A0523CAED9C2D32452009 /* [CP] Check Pods Manifest.lock */,
+				D308A5F71D6E9AAE00462408 /* Sources */,
+				D308A5F81D6E9AAE00462408 /* Frameworks */,
+				D308A5F91D6E9AAE00462408 /* Resources */,
+				5794E4F732BF2A0A12C80FD3 /* [CP] Embed Pods Frameworks */,
+				B546CE7BFB242A246C3D5813 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = InstalledAppReaderOSX_Example;
-			productName = InstalledAppReaderOSX;
-			productReference = 6003F58A195388D20070C39A /* InstalledAppReaderOSX_Example.app */;
+			productName = InstalledAppReaderOSX_Example;
+			productReference = D308A5FB1D6E9AAE00462408 /* InstalledAppReaderOSX_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6003F5AD195388D20070C39A /* InstalledAppReaderOSX_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Tests" */;
-			buildPhases = (
-				2FCCF923A8141628E326C54C /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				66FB59612F610A17BBDBE3B4 /* [CP] Embed Pods Frameworks */,
-				C66960EE7FAF92306DBB6AD0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = InstalledAppReaderOSX_Tests;
-			productName = InstalledAppReaderOSXTests;
-			productReference = 6003F5AE195388D20070C39A /* InstalledAppReaderOSX_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -247,8 +161,8 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = raxcat;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					D308A5FA1D6E9AAE00462408 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -265,35 +179,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* InstalledAppReaderOSX_Example */,
-				6003F5AD195388D20070C39A /* InstalledAppReaderOSX_Tests */,
+				D308A5FA1D6E9AAE00462408 /* InstalledAppReaderOSX_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F588195388D20070C39A /* Resources */ = {
+		D308A5F91D6E9AAE00462408 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				D308A6071D6E9AAE00462408 /* Assets.xcassets in Resources */,
+				D308A60A1D6E9AAE00462408 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		133846A78AA0582C8DAB2CA8 /* [CP] Embed Pods Frameworks */ = {
+		5794E4F732BF2A0A12C80FD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +212,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstalledAppReaderOSX_Example/Pods-InstalledAppReaderOSX_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FCCF923A8141628E326C54C /* [CP] Check Pods Manifest.lock */ = {
+		644A0523CAED9C2D32452009 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,7 +227,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4477095DA35BE67D6EA7F0BF /* [CP] Copy Pods Resources */ = {
+		B546CE7BFB242A246C3D5813 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,97 +242,28 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstalledAppReaderOSX_Example/Pods-InstalledAppReaderOSX_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66FB59612F610A17BBDBE3B4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstalledAppReaderOSX_Tests/Pods-InstalledAppReaderOSX_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B64F221D1CD9D8A185B1FC0E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C66960EE7FAF92306DBB6AD0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstalledAppReaderOSX_Tests/Pods-InstalledAppReaderOSX_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F586195388D20070C39A /* Sources */ = {
+		D308A5F71D6E9AAE00462408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* NSAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* NSViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				D308A6051D6E9AAE00462408 /* ViewController.m in Sources */,
+				D308A6021D6E9AAE00462408 /* main.m in Sources */,
+				D308A5FF1D6E9AAE00462408 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* InstalledAppReaderOSX_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+		D308A6081D6E9AAE00462408 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F597195388D20070C39A /* en */,
+				D308A6091D6E9AAE00462408 /* Base */,
 			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,79 +342,48 @@
 			};
 			name = Release;
 		};
-		6003F5C0195388D20070C39A /* Debug */ = {
+		D308A60D1D6E9AAE00462408 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2075767584F0DE32892D40C /* Pods-InstalledAppReaderOSX_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "InstalledAppReaderOSX/InstalledAppReaderOSX-Prefix.pch";
-				INFOPLIST_FILE = "InstalledAppReaderOSX/InstalledAppReaderOSX-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = InstalledAppReaderOSX_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winnerwave.InstalledAppReaderOSX-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		6003F5C1195388D20070C39A /* Release */ = {
+		D308A60E1D6E9AAE00462408 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02FE5D23AC058E3970B0DBE8 /* Pods-InstalledAppReaderOSX_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "InstalledAppReaderOSX/InstalledAppReaderOSX-Prefix.pch";
-				INFOPLIST_FILE = "InstalledAppReaderOSX/InstalledAppReaderOSX-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = InstalledAppReaderOSX_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.winnerwave.InstalledAppReaderOSX-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A2DE0E249C7DEF0B425853 /* Pods-InstalledAppReaderOSX_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstalledAppReaderOSX_Example.app/InstalledAppReaderOSX_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECF6B8D2E1DEEE6CC0915945 /* Pods-InstalledAppReaderOSX_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstalledAppReaderOSX_Example.app/InstalledAppReaderOSX_Example";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -595,20 +399,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Example" */ = {
+		D308A60C1D6E9AAE00462408 /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C0195388D20070C39A /* Debug */,
-				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "InstalledAppReaderOSX_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				D308A60D1D6E9AAE00462408 /* Debug */,
+				D308A60E1D6E9AAE00462408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

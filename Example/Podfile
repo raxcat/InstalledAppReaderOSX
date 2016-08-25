@@ -3,9 +3,4 @@ use_frameworks!
 target 'InstalledAppReaderOSX_Example' do
   pod 'InstalledAppReaderOSX', :path => '../'
 
-  target 'InstalledAppReaderOSX_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
