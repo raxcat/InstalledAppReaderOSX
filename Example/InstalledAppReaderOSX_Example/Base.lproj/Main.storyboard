@@ -673,15 +673,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jna-DJ-x79">
+                                <rect key="frame" x="195" y="195" width="91" height="32"/>
+                                <buttonCell key="cell" type="push" title="ByName" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Nhf-no-dDg">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showByName:" target="XfG-lQ-9wD" id="3Jf-Qu-Ilx"/>
+                                </connections>
+                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9W2-r9-Poe">
                                 <rect key="frame" x="199" y="118" width="83" height="32"/>
                                 <buttonCell key="cell" type="push" title="ByPath" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hDe-Sy-KaL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
-                                <connections>
-                                    <action selector="showByPath:" target="XfG-lQ-9wD" id="m0Q-DT-cbg"/>
-                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ty2-kT-qvC">
                                 <rect key="frame" x="185" y="48" width="111" height="32"/>
@@ -693,14 +700,14 @@
                                     <action selector="showByBundleID:" target="XfG-lQ-9wD" id="u0X-L4-NLU"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jna-DJ-x79">
-                                <rect key="frame" x="195" y="195" width="91" height="32"/>
-                                <buttonCell key="cell" type="push" title="ByName" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Nhf-no-dDg">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ye6-kz-iYi">
+                                <rect key="frame" x="374" y="18" width="88" height="18"/>
+                                <buttonCell key="cell" type="check" title="Recusrsive" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="ejr-tr-LTj">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="showByName:" target="XfG-lQ-9wD" id="3Jf-Qu-Ilx"/>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="self.recursive" id="62j-KS-Aef"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -10,6 +10,7 @@
 
 @interface ViewController : NSViewController
 
+@property (assign) BOOL recursive;
 
 @end
 

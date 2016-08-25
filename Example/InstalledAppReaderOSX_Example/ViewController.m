@@ -12,8 +12,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    
+    self.recursive = YES;
 }
 
 - (void)setRepresentedObject:(id)representedObject {
@@ -22,13 +21,13 @@
     // Update the view, if already loaded.
 }
 - (IBAction)showByName:(id)sender {
-    NSLog(@"%@", [InstalledAppReader installedAppsByName]);
+    NSLog(@"%@", [InstalledAppReader installedAppsByName:self.recursive]);
 }
 - (IBAction)showByPath:(id)sender {
-    NSLog(@"%@", [InstalledAppReader installedAppsByPath]);
+    NSLog(@"%@", [InstalledAppReader installedAppsByPath:self.recursive]);
 }
 - (IBAction)showByBundleID:(id)sender {
-    NSLog(@"%@", [InstalledAppReader installedAppsByBundleId]);
+    NSLog(@"%@", [InstalledAppReader installedAppsByBundleId:self.recursive]);
 }
 
 @end

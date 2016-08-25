@@ -47,8 +47,8 @@
 
 
 @implementation InstalledAppReader
-+(NSArray <NSString*> *)installedAppsByName{
-    NSArray * array = [[self class] installedAppsByPath];
++(NSArray <NSString*> *)installedAppsByName:(BOOL)recursive{
+    NSArray * array = [[self class] installedAppsByPath:recursive];
     
     if (array.count == 0 ){
         return nil;
@@ -61,11 +61,11 @@
     return [[NSArray alloc] initWithArray:mArray];
 }
 
-+(NSArray <NSURL*> *)installedAppsByPath{
-    return [[self class] installedAppsByPaths:[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationDirectory inDomains:NSLocalDomainMask] objectAtIndex:0]];
++(NSArray <NSURL*> *)installedAppsByPath:(BOOL)recursive{
+    return [[self class] installedAppsByPaths:[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationDirectory inDomains:NSLocalDomainMask] objectAtIndex:0] recursive:recursive];
 }
 
-+(NSArray <NSURL*> *)installedAppsByPaths:(NSURL*)directory{
++(NSArray <NSURL*> *)installedAppsByPaths:(NSURL*)directory recursive:(BOOL)recursive{
     
     NSError *error = nil;
     
@@ -87,9 +87,9 @@
         
         if ([appUrl isAppBundle]){
             [m addObject:appUrl];
-        }else if([appUrl isDir] && appUrl.isAppBundle == NO && appUrl.isFramework == NO){
+        }else if([appUrl isDir] && appUrl.isAppBundle == NO && appUrl.isFramework == NO && recursive){
 //            NSLog(@"[%@] maybe a folder, digging in ...", appUrl);
-            NSArray * sub = [[self class] installedAppsByPaths:appUrl];
+            NSArray * sub = [[self class] installedAppsByPaths:appUrl recursive:YES];
             if (sub.count > 0 ){
 //                NSLog(@"sub -> \n%@", sub);
                 [m addObjectsFromArray:sub];
@@ -100,8 +100,8 @@
     return [[NSArray alloc] initWithArray:m];
 }
 
-+(NSArray <NSString*> *)installedAppsByBundleId{
-    NSArray * array = [[self class] installedAppsByPath];
++(NSArray <NSString*> *)installedAppsByBundleId:(BOOL)recursive{
+    NSArray * array = [[self class] installedAppsByPath:recursive];
     
     if (array.count == 0 ){
         return nil;

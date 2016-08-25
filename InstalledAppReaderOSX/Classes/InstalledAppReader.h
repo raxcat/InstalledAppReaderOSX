@@ -11,21 +11,21 @@
 @interface InstalledAppReader : NSObject
 
 /**
- Recursively.
- Show names of installed apps.
+ Show names of installed apps. Sync call.
+ @note Recursively finding out installed apps under /Application is a very expansive operation.
  */
-+(NSArray<NSString*>*)installedAppsByName;
++(NSArray<NSString*>*)installedAppsByName:(BOOL)recursive;
 
 /**
- Recursively.
- Show paths(NSURL) of installed apps.
+ Show paths(NSURL) of installed apps. Sync call.
+@note Recursively finding out installed apps under "/Application" is a very expansive operation.
  */
-+(NSArray<NSURL*>*)installedAppsByPath;
++(NSArray<NSURL*>*)installedAppsByPath:(BOOL)recursive;
 
 /**
- Recursively.
- Show bundle identifier of installed apps.
+ Show bundle identifier of installed apps. Sync call.
+@note Recursively finding out installed apps under "/Application" is a very expansive operation.
  */
-+(NSArray<NSString*>*)installedAppsByBundleId;
++(NSArray<NSString*>*)installedAppsByBundleId:(BOOL)recursive;
 
 @end
