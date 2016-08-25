@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+@import InstalledAppReaderOSX;
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSURL * selfUrl = [[NSBundle mainBundle] bundleURL];
+    NSLog(@"%@", [selfUrl appBundleVersion]);
+    NSLog(@"%@", [selfUrl appShortVersion]);
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

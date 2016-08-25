@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  InstalledAppReaderOSX: bc947cae804e716d92c522cdf508f7c451c1cd51
+  InstalledAppReaderOSX: 162d59be51a9ec2645c801f8ab0bfcedd4689524
 
 PODFILE CHECKSUM: c69dea7f9bcb066a85371b6d2292c38bb71cf57f
 

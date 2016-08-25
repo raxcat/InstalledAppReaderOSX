@@ -7,43 +7,7 @@
 //
 
 #import "InstalledAppReader.h"
-@interface NSURL (InfoPlist)
--(NSString*)appName;
--(NSURL*)infoPlistFileURL;
--(BOOL)isAppInfoPlistExist;
--(BOOL)isDir;
--(BOOL)isAppBundle;
--(BOOL)isFramework;
-@end
-@implementation NSURL (InfoPlist)
-
--(NSString*)appName{
-    return [[self lastPathComponent] stringByDeletingPathExtension];
-}
--(NSURL*)infoPlistFileURL{
-    NSURL* infoPlistURL = [self URLByAppendingPathComponent:@"Contents/Info.plist"];
-    return infoPlistURL;
-}
--(BOOL)isAppInfoPlistExist{
-    BOOL isDir = NO;
-    BOOL exist = [[NSFileManager defaultManager] fileExistsAtPath:self.infoPlistFileURL.path isDirectory:&isDir];
-    return (exist && !isDir);
-}
--(BOOL)isDir{
-    NSError * error = nil;
-    NSDictionary* a = [[NSFileManager defaultManager] attributesOfItemAtPath:self.path error:&error];
-    NSString * fileType = [a objectForKey:NSFileType];
-    if ([fileType isEqualToString:NSFileTypeDirectory])
-        return YES;
-    return NO;
-}
--(BOOL)isAppBundle{
-    return self.isDir && [self.lastPathComponent.pathExtension isEqualToString:@"app"] && self.isAppInfoPlistExist;
-}
--(BOOL)isFramework{
-    return self.isDir && [self.lastPathComponent.pathExtension isEqualToString:@"framework"];
-}
-@end
+#import "NSURL+AppBundle.h"
 
 
 @implementation InstalledAppReader
