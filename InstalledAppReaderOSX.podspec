@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InstalledAppReaderOSX'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Help reading installed apps under /Application folder.'
 
 # This description is used to generate tags and improve search results.
