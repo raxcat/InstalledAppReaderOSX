@@ -1,6 +1,6 @@
 {
   "name": "InstalledAppReaderOSX",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Help reading installed apps under /Application folder.",
   "description": "Help reading installed apps under /Application folder. Simple tool.",
   "homepage": "https://github.com/raxcat/InstalledAppReaderOSX",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/raxcat/InstalledAppReaderOSX.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "osx": "10.8"
